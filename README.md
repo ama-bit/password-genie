@@ -42,7 +42,7 @@ This project does **not** require any external libraries or dependencies. It use
 3. Open a terminal and navigate to the project directory.
 4. Run the script:
    ```bash
-   python pw_genie.py
+   python pw-genie.py
 
 ---
 
