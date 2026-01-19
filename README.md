@@ -65,12 +65,12 @@ Would you like to improve this password to a very strong level? (y/n): y
 
 Improving password to a very strong level...
 Improving password strength
-[--------------------------[█-------------------------███████████████████████████] 100%
+[█-------------------------███████████████████████████] 100%
 
 Password is now very strong after improvements!
 
 Improvements Made:
-Added 4 random characters to increase entropy. This makes the password harder to crack using brute-force or dictionary attacks.
+Added random characters to increase entropy. This makes the password harder to crack using brute-force or dictionary attacks.
 
 Final improved password: \25BQ$MjkaDj5p
 Final strength: Very Strong
@@ -134,9 +134,22 @@ This project is licensed under the MIT License - see the LICENSE
 
 ---
 
-### .gitignore
+## .gitignore
 
 This project includes a `.gitignore` file to avoid tracking unnecessary files (e.g., Python bytecode, virtual environments). Be sure to have a similar `.gitignore` if you're working on your own version of the project.
+
+---
+
+## Learn Something 🧠
+
+- [Python - secrets](https://docs.python.org/3/library/secrets.html)
+- [Python - hashlib](https://docs.python.org/3/library/hashlib.html)
+- [Python - re, regex](https://docs.python.org/3/library/re.html)
+- [Python - strings](https://docs.python.org/3/library/string.html)
+- [Python - time](https://docs.python.org/3/library/time.html)
+- [Python - math](https://docs.python.org/3/library/math.html)
+- [GeeksforGeeks, Generating Strong Passwords](https://www.geeksforgeeks.org/python/generating-strong-password-using-python/)
+- [GeeksforGeeks, Password Entropy](https://www.geeksforgeeks.org/computer-networks/password-entropy-in-cryptography/)
 
 ---
 
