@@ -153,4 +153,9 @@ This project includes a `.gitignore` file to avoid tracking unnecessary files (e
 
 ---
 
+## Disclaimer
+This project is for educational purposes only.  
+Do not use generated passwords in production systems without proper security review.
+
+---
 
