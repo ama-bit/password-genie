@@ -1,0 +1,28 @@
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Virtual environment directories
+venv/
+env/
+
+# Environment variables file (often contains sensitive info like API keys)
+.env
+
+# VS Code workspace settings
+.vscode/
+
+# JetBrains IDE project files
+.idea/
+
+# MacOS system files (if applicable)
+.DS_Store
+
+# Windows system files (if applicable)
+Thumbs.db
+
+# Logs
+*.log
+
+# Python distribution package (if applicable)
+*.egg-info/
