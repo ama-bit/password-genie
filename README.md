@@ -1,7 +1,9 @@
 # 🔏 Password Genie 🧞  
 ## Password Generator, Strength Checker & Entropy Analyzer
 
-**Password Genie** is a Python-based security learning tool that generates passwords, evaluates their strength, calculates password entropy, and estimates the time required to crack them using modern attack assumptions. This project demonstrates practical cybersecurity concepts such as **secure randomness, entropy-based strength evaluation, and password attack resistance**.
+**Password Genie** is a Python-based security learning tool that generates passwords, evaluates their strength, calculates password entropy, and estimates the time required to crack them using modern attack assumptions. 
+
+This project demonstrates practical cybersecurity concepts such as **secure randomness, entropy-based strength evaluation, and password attack resistance**.
 
 ---
 
