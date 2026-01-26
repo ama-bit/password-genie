@@ -7,7 +7,7 @@ This project demonstrates practical cybersecurity concepts such as **secure rand
 
 ---
 
-## Features
+## Why PW Genie?
 
 - **Secure Password Generation**  
   - Generates passwords using *cryptographically secure randomness* via Python’s `secrets` module.
@@ -32,9 +32,9 @@ This project demonstrates practical cybersecurity concepts such as **secure rand
 
 ---
 
-## Requirements 🧰
+## Tools 🧰
 
-This project uses **only Python’s standard library** — no external dependencies required.
+This project uses **only Python’s standard library** and no external dependencies are required.
 
 Modules used:
 - `secrets`
@@ -54,6 +54,8 @@ Modules used:
 4. Run:
    ```bash
    python pw-genie.py
+   ```
+---
 
 ## Example Session
 
@@ -85,28 +87,33 @@ Estimated crack time: 13,295 million years
 ---
 
 ## How It Works 🔎
-Passwords are evaluated using:
+
+*Passwords are evaluated using*:
 
   - Length
   - Character diversity (lowercase, uppercase, digits, symbols)
-  - A simplified scoring model designed for educational clarity
+  - A simplified scoring model (designed for educational clarity)
 
 ---
 
 ## Entropy Calculation
 
-Entropy is calculated using:
+*Entropy is calculated using*:
+
 ```bash
 entropy = length × log₂(character pool size)
 ```
-Higher entropy corresponds to greater resistance against brute-force and guessing attacks.
+**Higher entropy** corresponds to **greater resistance** against *guessing attacks* such as
+dictionary attacks, credential stuffing, password spraying, and full brute-force attacks.
 
 ---
 
 ## Crack Time Estimation ⏳
 
-Crack time is estimated using entropy-based assumptions and simulated modern GPU attack speeds.
-These values are approximations, not guarantees.
+Crack time is estimated using **entropy-based assumptions** and simulated modern GPU attack speeds.
+
+> ⚠️ These values are approximations, not guarantees.
+> 📢
 
 ---
 
@@ -116,7 +123,7 @@ These values are approximations, not guarantees.
 
 - Avoids storing or logging passwords
 
-- Encourages long, unique, high-entropy passwords
+- Encourages **long, unique, & high-entropy** passwords
 
 - Considers real-world password attack models
 
@@ -126,20 +133,6 @@ These values are approximations, not guarantees.
 
 Contributions are welcome.
 Feel free to fork the repository, submit pull requests, or open issues for bugs or feature suggestions.
-
----
-
-
-## Learn Something 🧠
-
-- [Python - secrets](https://docs.python.org/3/library/secrets.html)
-- [Python - hashlib](https://docs.python.org/3/library/hashlib.html)
-- [Python - re, regex](https://docs.python.org/3/library/re.html)
-- [Python - strings](https://docs.python.org/3/library/string.html)
-- [Python - time](https://docs.python.org/3/library/time.html)
-- [Python - math](https://docs.python.org/3/library/math.html)
-- [GeeksforGeeks, Generating Strong Passwords](https://www.geeksforgeeks.org/python/generating-strong-password-using-python/)
-- [GeeksforGeeks, Password Entropy](https://www.geeksforgeeks.org/computer-networks/password-entropy-in-cryptography/)
 
 ---
 
@@ -157,8 +150,21 @@ This project is licensed under the **MIT License** - see the `LICENSE`
 
 ---
 
-## .gitignore
+## .gitignore 🚯
 
 This project includes a `.gitignore` file to avoid tracking unnecessary files in the future (e.g., Python bytecode, virtual environments). Be sure to have a similar `.gitignore` if you're working on your own version of the project.
+
+---
+
+## Learning Links 🧠
+
+- [Python - secrets](https://docs.python.org/3/library/secrets.html)
+- [Python - hashlib](https://docs.python.org/3/library/hashlib.html)
+- [Python - re, regex](https://docs.python.org/3/library/re.html)
+- [Python - strings](https://docs.python.org/3/library/string.html)
+- [Python - time](https://docs.python.org/3/library/time.html)
+- [Python - math](https://docs.python.org/3/library/math.html)
+- [GeeksforGeeks, Generating Strong Passwords](https://www.geeksforgeeks.org/python/generating-strong-password-using-python/)
+- [GeeksforGeeks, Password Entropy](https://www.geeksforgeeks.org/computer-networks/password-entropy-in-cryptography/)
 
 ---
